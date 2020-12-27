@@ -22,6 +22,8 @@ En informatique, et plus particulièrement en développement logiciel, un design
 -	Le design pattern Structure
 -	Le design pattern Comportemental
 
+***
+
 ### Le pattern Command 
 
 Pattern de type **comportemental**, c’est-à-dire qu’il permet d’augmenter la souplesse dans l’exécution de cette communication.
@@ -40,7 +42,7 @@ Image diagramme
  
  <img src="https://github.com/manon-deleest/Vrac/blob/master/DesignCommand_UML.png">
 
-**Les classes participantes à ce patron sont les suivantes :**
+*Les classes participantes à ce patron sont les suivantes :*
 
 **Command** --> fournit une interface qui encapsule une opération pour l'exécuter en différé.
 **ConcreteCommand** --> Celle-ci implémente l’interface Command et définit une liaison entre un objet récepteur et une action, et concrétise la méthode execute () pour l'invocation des opérations du récepteur. C’est quoi execute () ? C’est la méthode qui appelle simplement l'action sur le récepteur. 
@@ -48,8 +50,18 @@ Image diagramme
 Une autre classe est la classe Invoker. Elle demande à la classe Command d'exécuter sa requête.
 **Receive** --> c’est l'objet (ou un des objets) sur lequel s'applique la commande, c’est le récepteur.
 
-Diagramme de séquence 
+**Diagramme de séquence**
 
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
 
 
 
