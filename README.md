@@ -10,25 +10,33 @@ Lors du module M3105, intitulé Conception & Programmation orienté objet, j’a
 ***
 ## Contenu
 
-Qu’est-ce qu’un Design Pattern ? 
+***
+
+### Qu’est-ce qu’un Design Pattern ? 
+
 Les design patterns ont été formalisés pour la première fois par le « Gang of Four » dans un livre intitulé Design Patterns – Elements of Reusable Object-Oriented Software paru en 1994.
 En informatique, et plus particulièrement en développement logiciel, un design pattern est un arrangement caractéristique de modules. Un pattern va permettre de résoudre un problème grâce à un modèle de résolution. 
-Il existe 3 types de Design Pattern : 
+
+**Il existe 3 types de Design Pattern :** 
 -	Le design pattern Création
 -	Le design pattern Structure
 -	Le design pattern Comportemental
 
-Le pattern Command 
-Pattern de type comportemental, c’est-à-dire qu’il permet d’augmenter la souplesse dans l’exécution de cette communication.
-L’intention du design pattern Command est de transformer une requête en un objet, facilitant ainsi des opérations comme l’annulation, la mise en file des requêtes et leur suivi.
-Une métaphore est la commande au restaurant. 
+### Le pattern Command 
+
+Pattern de type **comportemental**, c’est-à-dire qu’il permet d’augmenter la souplesse dans l’exécution de cette communication.
+
+*L’intention du design pattern **Command** *est de transformer une requête en un objet, facilitant ainsi des opérations comme l’annulation, la mise en file des requêtes et leur suivi.
+
+
+*Une métaphore est **la commande au restaurant**. *
 
 Un serveur prend une commande en salle, il l’écrit sur un bout de papier. Il se rend dans la cuisine et colle la commande sur le mur. Au bout d’un moment, le chef arrive à la commande, il l’a lie et prépare le plat. Le cuisinier place le repas sur un plateau avec la commande. Le serveur découvre le plateau, vérifie la commande pour s’assure que tout est conforme et l’apporte en salle.
 
 Le bout de papier joue le rôle de la commande. Il reste dans une file d’attente jusqu’à ce que le chef soit prêt à la servir. Le client du restaurant représente la classe Client, qui attend que l’action qu’il a demandée se fasse. Le serveur représente Invoker, qui va placer la commande dans la file d’attente pour qu’elle soit réalisée. Le Receiver est le cuisinier, qui va lire la commande et réaliser l’action correspondante.
 Image diagramme
 
-Diagramme de classe générique du pattern Command
+**Diagramme de classe générique du pattern Command**
  
 
 Les classes participantes à ce patron sont les suivantes :
