@@ -38,6 +38,7 @@ Image diagramme
 
 **Diagramme de classe générique du pattern Command**
  
+ <img src="https://github.com/manon-deleest/Vrac/blob/master/DesignCommand_UML.png">
 
 Les classes participantes à ce patron sont les suivantes :
 Command -> fournit une interface qui encapsule une opération pour l'exécuter en différé.
