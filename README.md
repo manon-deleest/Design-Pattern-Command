@@ -7,7 +7,9 @@ Description du design pattern Command
 
 Lors du module M3105, intitulé Conception & Programmation orienté objet, j’ai appris les bonnes pratiques, les doublures de test, les principes SOLID et les Design Patterns. Dans ce cadre, j’ai réalisé une présentation sur un design pattern de mon choix et choisi de présenter le design pattern Command. Pour faciliter la compréhension nous avons réalisé une vidéo. 
 
+***
 ## Contenu
+
 Qu’est-ce qu’un Design Pattern ? 
 Les design patterns ont été formalisés pour la première fois par le « Gang of Four » dans un livre intitulé Design Patterns – Elements of Reusable Object-Oriented Software paru en 1994.
 En informatique, et plus particulièrement en développement logiciel, un design pattern est un arrangement caractéristique de modules. Un pattern va permettre de résoudre un problème grâce à un modèle de résolution. 
