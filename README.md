@@ -29,10 +29,10 @@ En informatique, et plus particulièrement en développement logiciel, un design
 
 Pattern de type **comportemental**, c’est-à-dire qu’il permet d’augmenter la souplesse dans l’exécution de cette communication.
 
-*L’intention du design pattern **Command** *est de transformer une requête en un objet, facilitant ainsi des opérations comme l’annulation, la mise en file des requêtes et leur suivi.
+*L’intention du design pattern **Command*** est de transformer une requête en un objet, facilitant ainsi des opérations comme l’annulation, la mise en file des requêtes et leur suivi.
 
 
-*Une métaphore est **la commande au restaurant**. *
+*Une métaphore est **la commande au restaurant**.*
 
 Un serveur prend une commande en salle, il l’écrit sur un bout de papier. Il se rend dans la cuisine et colle la commande sur le mur. Au bout d’un moment, le chef arrive à la commande, il l’a lie et prépare le plat. Le cuisinier place le repas sur un plateau avec la commande. Le serveur découvre le plateau, vérifie la commande pour s’assure que tout est conforme et l’apporte en salle.
 
