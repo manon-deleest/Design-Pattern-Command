@@ -41,7 +41,7 @@ Image diagramme
 
 **Diagramme de classe générique du pattern Command**
  
- <img src="https://github.com/manon-deleest/Vrac/blob/master/DesignCommand_UML.png">
+ <img src="https://zupimages.net/up/20/53/up5i.png">
 
 *Les classes participantes à ce patron sont les suivantes :*
 
@@ -53,7 +53,7 @@ Une autre classe est la classe Invoker. Elle demande à la classe Command d'exé
 
 **Diagramme de séquence**
 
-<img src="https://github.com/manon-deleest/Vrac/blob/master/Capture.PNG">
+<img src="https://zupimages.net/up/20/53/tsw4.png">
 
 
 
