@@ -46,9 +46,13 @@ Image diagramme
 *Les classes participantes à ce patron sont les suivantes :*
 
 **Command** --> fournit une interface qui encapsule une opération pour l'exécuter en différé.
-**ConcreteCommand** --> Celle-ci implémente l’interface Command et définit une liaison entre un objet récepteur et une action, et concrétise la méthode execute () pour l'invocation des opérations du récepteur. C’est quoi execute () ? C’est la méthode qui appelle simplement l'action sur le récepteur. 
-**Client** --> Cette classe crée un objet ConcreteCommand et positionne son récepteur.
-Une autre classe est la classe Invoker. Elle demande à la classe Command d'exécuter sa requête.
+
+**ConcreteCommand** --> Celle-ci implémente l’interface *Command* et définit une liaison entre un objet récepteur et une action, et concrétise la méthode execute () pour l'invocation des opérations du récepteur. C’est quoi execute () ? C’est la méthode qui appelle simplement l'action sur le récepteur. 
+
+**Client** --> Cette classe crée un objet *ConcreteCommand* et positionne son récepteur.
+
+**Invoker** --> Elle demande à la classe *Command* d'exécuter sa requête.
+
 **Receive** --> c’est l'objet (ou un des objets) sur lequel s'applique la commande, c’est le récepteur.
 
 **Diagramme de séquence**
